@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TypeRacer</title>
+</head>
+<style>
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid #7cc5d9;
+  padding: 10px;
+  background-color: #a0cdd9;
+}
+textarea {
+resize: none;
+}
+.correct{
+	background-color: #22bf5f;
+}
+.mistake{
+	background-color: #e80e07;
+}
+
+</style>
+<body>
+
+	<div id='main' class='center'>
+		<div>
+			<p id="text">
+				Push yourself, because no one else is going to do it for you.
+			</p>
+		</div>
+
+		<div id="inputText">
+			<textarea rows="6" cols="50" style="width: 100%" placeholder="start typing here..." ></textarea> 
+		</div>
+
+		<div style=" text-align: center" >
+			<h1 id="timer" style="color: #216882">0</h1>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body> 
+</html>
